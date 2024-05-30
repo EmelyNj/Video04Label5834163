@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Video04Label5834163.MainPage">
+
+    <!--<Summary>
+<Createdate>Jueves 23 de Mayo del 2024</Createdate>
+<Comapy></Comapy>
+<Lastmodificationdate>23 de Mayo</Lastmodificationdate>
+<Lastmodificationdescription>Entry en el ContentPage del Video 06</Lastmodificationdescription>
+<Lastmodifierautor>Emely Nájera</Lastmodifierautor>
+</Summary>-->
+
+
+    <ContentPage Title="Video 04">
+            
+    <StackLayout Margin="20, 35, 20, 20">
+        <Label Text="Ejemplo del video 04 - Xamarin.Forms Label Visual Studio Community 2019"
+               HorizontalOptions="End"
+               TextColor="Green"
+               FontAttributes="Bold"
+               FontSize="22"
+               TextDecorations="Strikethrough"></Label>
+
+        <Label FontSize="Medium">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span TextDecorations="Strikethrough" FontAttributes="Bold" TextColor="Green">Programacion orientada a objetos</Span>
+                    <Span FontAttributes="Italic" TextColor="Blue">es un paradigma de la programacion</Span>
+                    <Span TextColor="Gray" TextDecorations="Strikethrough">que nos ayuda a obtener mejor resultados</Span>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+            
+        </ContentPage>
+
+    <ContentPage Title="Video 05">
+        <StackLayout Margin="20, 35, 20, 20">
+            <Button Text="Presioname"
+                    TextColor="Green"
+                    BackgroundColor="Yellow"
+                    BorderColor="Red"
+                    BorderWidth="3"
+                    CornerRadius="20"
+                    WidthRequest="200"
+                    HeightRequest="60"
+                    Clicked="Button_Clicked"/>
+
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Video 06">
+        <StackLayout Margin="20, 35, 20, 20">
+            <Entry Placeholder="Usuario"
+                   MaxLength="10"
+                   IsSpellCheckEnabled="True"
+                   IsTextPredictionEnabled="True"
+                   IsPassword="False"
+                   Keyboard="Numeric"
+                   CharacterSpacing="10"
+                   TextChanged="Entry_TextChanged"
+                   Completed="Entry_Completed"></Entry>
+        </StackLayout>
+    </ContentPage>
+
+</TabbedPage>
